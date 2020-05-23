@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/menuProfil"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"
+        android:orderInCategory="100"
+        android:title="Mon profil"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuRandom"
+        android:icon="@drawable/ic_looks_one_black_24dp"
+        android:orderInCategory="100"
+        android:title="Annonce aléatoire"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuAdd"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:orderInCategory="100"
+        android:title="Déposer une annonce"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuListe"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:orderInCategory="100"
+        android:title="Liste des annonces"
+        app:showAsAction="always" />
+
+
+</menu>
